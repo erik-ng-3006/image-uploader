@@ -1,10 +1,10 @@
 import React from 'react';
 import Footer from './footer/footer';
-
+import classes from './layout.module.css';
 function Layout(props) {
 	return (
 		<>
-			<main>{props.children}</main>
+			<main className={classes.main}>{props.children}</main>
 			<Footer />
 		</>
 	);

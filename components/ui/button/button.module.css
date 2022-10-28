@@ -1,0 +1,29 @@
+.input > input {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+
+.button,
+.input > label {
+	background-color: var(--blue);
+	color: white;
+	font-size: 1.2rem;
+	padding: 0.8rem 1.6rem;
+	border: none;
+	border-radius: 0.8rem;
+	font-family: 'Noto sans', sans-serif;
+	display: inline-block;
+}
+
+.button:hover,
+.button:focus,
+.input:focus > label,
+.input > label:hover {
+	cursor: pointer;
+	opacity: 0.8;
+	transition: opacity 300ms ease-out;
+}

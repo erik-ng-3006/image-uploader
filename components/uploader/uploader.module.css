@@ -1,0 +1,27 @@
+.uploader {
+	padding: 3.6rem 3.2rem;
+	text-align: center;
+}
+
+.uploader h1 {
+	font-weight: 500;
+	font-size: 1.8rem;
+	color: #4f4f4f;
+	margin-bottom: 1.6rem;
+}
+
+.uploader p {
+	font-weight: 500;
+	font-size: 1rem;
+	line-height: 1.5rem;
+	color: #828282;
+	margin-bottom: 3rem;
+}
+
+.uploader span {
+	line-height: 27px;
+	font-size: 1.2rem;
+	color: #bdbdbd;
+	margin-bottom: 2.2rem;
+	display: block;
+}
