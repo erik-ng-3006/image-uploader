@@ -1,0 +1,36 @@
+.loading {
+	padding: 3.5rem;
+}
+
+.loading h2 {
+	font-size: 1.8rem;
+	color: #4f4f4f;
+	font-weight: 500;
+	margin-bottom: 3.1rem;
+}
+
+.loading .bar {
+	background-color: #f2f2f2;
+	border-radius: 0.8rem;
+	width: 34rem;
+	height: 0.6rem;
+}
+
+.loading .bar span {
+	background-color: #2f80ed;
+	width: 10rem;
+	height: 0.6rem;
+	border-radius: 0.8rem;
+	z-index: 1000;
+	display: block;
+	animation: slideRight 800ms linear infinite;
+}
+
+@keyframes slideRight {
+	from {
+		translate: 0;
+	}
+	to {
+		translate: 24rem;
+	}
+}

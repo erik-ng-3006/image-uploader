@@ -1,0 +1,16 @@
+.holder {
+	width: 340px;
+	height: 220px;
+	background-color: #f6f8fb;
+	display: grid;
+	place-items: center;
+	margin-bottom: 2rem;
+	color: #bdbdbd;
+	border: 1px dashed #97bef4;
+	border-radius: 1.2rem;
+}
+
+.holder h2 {
+	font-weight: 500;
+	font-size: 1.2rem;
+}

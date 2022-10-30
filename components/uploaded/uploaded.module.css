@@ -1,0 +1,38 @@
+.uploaded {
+	padding: 3.3rem;
+	text-align: center;
+	position: relative;
+}
+
+.uploaded > svg {
+	color: #219653;
+	font-size: 4.2rem;
+	margin-bottom: 1.2rem;
+}
+
+.uploaded > h1 {
+	color: #4f4f4f;
+	font-weight: 500;
+	font-size: 1.8rem;
+	margin-bottom: 2.5rem;
+}
+
+.uploaded > img {
+	border-radius: 1.2rem;
+	display: block;
+	margin-bottom: 2.5rem;
+}
+
+.uploaded > input {
+	width: 34rem;
+	padding: 1.1rem;
+	border: 1px solid #e0e0e0;
+	border-radius: 1.2rem;
+	background-color: #f6f8fb;
+}
+
+.uploaded > button {
+	position: absolute;
+	bottom: 3.7rem;
+	right: 3.5rem;
+}
