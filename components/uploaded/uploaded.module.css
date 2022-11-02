@@ -36,3 +36,14 @@
 	bottom: 3.7rem;
 	right: 3.5rem;
 }
+
+.uploaded .btn-close {
+	color: #4f4f4f;
+	position: absolute;
+	top: 1rem;
+	left: 1rem;
+}
+
+.uploaded .btn-close:hover {
+	cursor: pointer;
+}

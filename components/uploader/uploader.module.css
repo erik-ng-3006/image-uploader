@@ -1,6 +1,7 @@
 .uploader {
 	padding: 3.6rem 3.2rem;
 	text-align: center;
+	position: relative;
 }
 
 .uploader h1 {

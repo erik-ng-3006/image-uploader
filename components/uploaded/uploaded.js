@@ -9,13 +9,20 @@ import { useRef } from 'react';
 function Uploaded(props) {
 	const linkInputRef = useRef('some-value');
 
-	function copyButtonHandler() {
+	function copyButtonClickHandler() {
 		navigator.clipboard.writeText(linkInputRef.current.value);
 	}
-	console.log(props.link);
-	console.log(props.path);
+	function closeButtonClickHandler() {
+		props.toggleUploaded();
+	}
 	return (
 		<Card className={classes.uploaded}>
+			<div
+				className={classes['btn-close']}
+				onClick={closeButtonClickHandler}
+			>
+				&#8592;
+			</div>
 			<CheckCircleIcon />
 			<h1>Uploaded Successfully!</h1>
 			<Image
@@ -25,7 +32,7 @@ function Uploaded(props) {
 				alt='uploaded image'
 			/>
 			<input type='text' value={props.link} disabled ref={linkInputRef} />
-			<Button onClick={copyButtonHandler}>Copy Link</Button>
+			<Button onClick={copyButtonClickHandler}>Copy Link</Button>
 		</Card>
 	);
 }
