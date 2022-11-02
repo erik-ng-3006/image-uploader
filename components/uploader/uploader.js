@@ -14,7 +14,6 @@ function Uploader(props) {
 
 		const data = await res.json();
 
-		console.log(data);
 		if (!res.ok) {
 			throw new Error({
 				message: data.message || 'Something went wrong!',
@@ -32,7 +31,7 @@ function Uploader(props) {
 	}
 
 	return (
-		<Card className={classes.uploader}>
+		<Card className={classes.uploader} onDrag>
 			<h1>Upload your image</h1>
 			<p>File should be Jpeg, Png,...</p>
 			<ImageHolder />

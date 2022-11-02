@@ -8,6 +8,7 @@ function Footer() {
 				<a
 					href='https://github.com/erik-ng-3006/image-uploader'
 					target='_blank'
+					rel='noreferrer'
 				>
 					erik-ng-3006
 				</a>{' '}
